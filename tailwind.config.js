@@ -1,5 +1,4 @@
 import type from "tailwindcss";
-import autoprefixer from "autoprefixer";
 
 const config = {
   darkMode: ["class"],

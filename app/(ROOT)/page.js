@@ -1,7 +1,17 @@
 export default function Home() {
   return (
     <>
-      <h1 className="text-2xl">Home</h1>
+      <section className="pink_container">
+        <h1 className="heading">
+          akshv ashdv asgd sdhs <br />
+          shab Lorem ipsum dolor.
+        </h1>
+
+        <p className="sub-heading  !max-w-3xl">
+          Submit Ideas Lorem ipsum dolor. Lorem ipsum dolor sit amet Lorem ipsum
+          dolor sit.
+        </p>
+      </section>
     </>
   );
 }
