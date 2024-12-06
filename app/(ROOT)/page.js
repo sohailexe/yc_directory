@@ -1,4 +1,7 @@
-export default function Home() {
+import SearchForm from "@/app/components/SearchForm";
+
+export default async function Home({ searchParams }) {
+  const { query } = await searchParams;
   return (
     <>
       <section className="pink_container">
@@ -11,6 +14,7 @@ export default function Home() {
           Submit Ideas Lorem ipsum dolor. Lorem ipsum dolor sit amet Lorem ipsum
           dolor sit.
         </p>
+        <SearchForm query={query} />
       </section>
     </>
   );
