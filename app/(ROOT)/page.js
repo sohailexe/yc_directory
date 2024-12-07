@@ -1,5 +1,6 @@
 import SearchForm from "@/app/components/SearchForm";
 import StartUpCard from "@/app/components/StartUpCard";
+import "easymde/dist/easymde.min.css";
 
 export default async function Home({ searchParams }) {
   const { query } = await searchParams;
